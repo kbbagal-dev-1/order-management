@@ -8,7 +8,7 @@ function App() {
   const [orders, setOrders] = useState([
     { id: 1, customerName: 'John Doe', items: 3, total: 150.00, status: 'Delivered', date: '2026-01-15' },
     { id: 2, customerName: 'Jane Smith', items: 2, total: 89.99, status: 'Processing', date: '2026-01-20' },
-    
+    { id: 3, customerName: 'Bob Johnson', items: 5, total: 245.50, status: 'Pending', date: '2026-01-22' },
   ]);
   const [selectedOrder, setSelectedOrder] = useState(null);
   const [showForm, setShowForm] = useState(false);
